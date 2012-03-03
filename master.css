@@ -1,0 +1,9 @@
+* {margin:0; padding: 0}
+body {background: #eee888; font: 16px/18px Helvetica}
+h1,h2,h3,h4,p {margin: 10px 0}
+h1 {text-align: center; font-size: 90px; font-weight: 100; line-height: 70px;}
+#container {background: #fff; margin: 20px auto; width: 88%; max-width: 1600px; min-width: 700px; padding: 10px; }
+section {width: 79%; float: right}
+aside {background: #eeeddd; float: left; width: 18%; max-width: 265px; padding: 10px;}
+footer {clear: both}
+@media (max-width: 500px) { #container,section,aside {width: 100%; max-width: 100%; min-width: 0; float: none; } aside {padding: 0} }
